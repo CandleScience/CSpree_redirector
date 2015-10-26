@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_redirector'
-  s.version     = '2.0.5.3'
+  s.version     = '2.0.4'
   s.summary     = 'A spree admin interface to redirector'
   s.description = 'A spree admin interface to redirector'
   s.required_ruby_version = '>= 1.9.3'
