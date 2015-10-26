@@ -26,7 +26,7 @@
         <td><%= redirect_rule.source %></td>
         <td><%= redirect_rule.destination %></td>
         <td class="actions">
-          <%= link_to 'Edit', edit_admin_redirect_rule_path(redirect_rule), class: 'btn btn-caution' %>
+          <%= link_to 'Edit', edit_admin_redirect_rule_path(redirect_rule), class: 'btn btn-warning' %>
           &nbsp;
           <%= link_to 'Delete', admin_redirect_rule_path(redirect_rule), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
         </td>
