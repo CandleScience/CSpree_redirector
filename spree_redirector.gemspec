@@ -1,14 +1,14 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_redirector'
-  s.version     = '2.0.4'
-  s.summary     = 'A spree admin interface to redirector'
-  s.description = 'A spree admin interface to redirector'
+  s.name        = 'CSpree_redirector'
+  s.version     = '1.0.1'
+  s.summary     = 'A spree 3.0 admin interface to redirector'
+  s.description = 'A spree 3.0 admin interface to redirector'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'John Hawthorn'
-  s.email     = 'john@freerunningtech.com'
+  s.author    = 'David Harmon'
+  s.email     = 'david@candlescience.com'
   # s.homepage  = 'http://www.spreecommerce.com'
 
   #s.files       = `git ls-files`.split("\n")
