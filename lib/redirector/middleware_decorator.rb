@@ -1,3 +1,5 @@
+require 'redirector'
+
 Redirector::Middleware::Responder.class_eval do
   def redirect_uri
     destination_uri.tap do |uri|
