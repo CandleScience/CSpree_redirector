@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'CSpree_redirector'
+  s.name        = 'spree_redirector'
   s.version     = '1.0.1'
   s.summary     = 'A spree 3.0 admin interface to redirector'
   s.description = 'A spree 3.0 admin interface to redirector'
