@@ -1,4 +1,4 @@
-Redirector::Middleware.prepend do
+Redirector::Middleware::Responder.class_eval do
   def redirect_uri
     destination_uri.tap do |uri|
       uri.scheme ||= 'https'
