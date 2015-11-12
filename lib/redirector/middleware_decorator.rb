@@ -1,6 +1,14 @@
 require 'redirector'
 
 Redirector::Middleware::Responder.class_eval do
+  def redirect?
+    not_asset && matched_destination.present?
+  end
+
+  def not_asset
+    !(env['PATH_INFO'] =~ /\A\/(assets|img|images)\//)
+  end
+
   def redirect_uri
     destination_uri.tap do |uri|
       uri.scheme ||= (Rails.env.staging? || Rails.env.production?) ? 'https' : 'http'
